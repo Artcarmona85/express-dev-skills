@@ -1,0 +1,5 @@
+<h1><%= skill.name %></h1>
+<p><%= skill.description %></p>
+<form action="/skills/<%= skill.id %>/delete" method="POST">
+  <button type="submit">Delete Skill</button>
+</form>
